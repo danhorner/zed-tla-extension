@@ -1,0 +1,9 @@
+name = "TLA+"
+grammar = "tlaplus"
+path_suffixes = ["tla"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true }
+]
+line_comments = ["\\*", "--"]

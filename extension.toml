@@ -1,0 +1,11 @@
+id = "tla"
+name = "TLA+ Support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Daniel Horner <daniel_horner@pobox.com>"]
+description = "TLA+ syntax highlighting for Zed -- loads the tree sitter grammar"
+repository = "https://github.com/danhorner/zed-tla-extension"
+
+[grammars.tlaplus]
+repository = "https://github.com/tlaplus-community/tree-sitter-tlaplus"
+commit = "bba02e79f85e335f310fc95e21c677e49f2c4439"
